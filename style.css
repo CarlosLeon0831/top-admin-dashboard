@@ -2,3 +2,20 @@
   margin: 0;
   padding: 0;
 }
+
+nav {
+  background-color: var(--sidebar-bg);
+  color: var(--sidebar-text);
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: var(--sidebar-text);
+}
+
+:root {
+  --sidebar-bg: #6366f1;
+  --sidebar-text: #eef2ff;
+}
